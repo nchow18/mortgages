@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(51, 50, 85);
+}
+
+
+
+header h1 {
+    color: white;
+    font-size: 39px;
+    display: inline;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    float: right;
+    margin: 10px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header nav ul li a.active {
+    background-color: limegreen;
+    color: white;
+}
+
+.market-update {
+    background-color: darkcyan;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 0;
+    font-size: 20px;
+}
+
+.market-update a {
+    text-decoration: none;
+}
+
+.market-update a:hover {
+    color: white;
+    background-color: black;
+    padding: 0;
+}
+
+.client-block {
+    background-image: url("./calculate_wallpaper.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.client-form {
+    padding: 10px;
+    background: rgba(32, 82, 148, 0.7);
+    border-width: 1px;
+    position: absolute;
+    width: 400px;
+    border: 2px solid black;
+    top: 110px;
+    right: 50px;
+    box-shadow: 5px 5px black;
+    
+}
+
+.client-form p {
+    margin: 5px 0 15px 0;
+}
+
+.client-form input {
+    display: block;
+    padding: 7px 15px;
+    width: 80%;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+.ref-purch input {
+    display: inline;
+    width: 10%;
+}
+
+footer {
+    background-color: rgb(51, 50, 85);
+    color: white;
+    padding: 15px 35px;
+}
+
+footer h2 {
+    display: inline;
+}
+
+footer div {
+    float: right;
+    text-align: right;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+.client-block button {
+    background-color: darkblue;
+    font-size: 16px;
+    color: yellowgreen;
+    padding: 7px 16px;  
+}
+
+.button-container {
+    margin: 0;
+    position: inline;
+    width: 100%;
+}
+
+.button-center {
+   display: block;
+   padding: 0 120px;
+}
+
+.client-block h2 {
+    text-align: center;
+}
