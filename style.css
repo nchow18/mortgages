@@ -145,3 +145,88 @@ footer div a {
 .client-block h2 {
     text-align: center;
 }
+
+.section-title {
+    font-size: 55px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.primary-border {
+    border-color: yellow;
+}
+
+.helping-you {
+    text-align: center;
+}
+
+.helping-you p {
+    padding-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.step-title {
+    color: black;
+    border-bottom: 3px solid;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.mortgage-container {
+    background: steelblue;
+    width: 858px;
+    overflow: auto;
+    margin: 0 auto 30px auto;    
+}
+
+.mortgage-container-right {
+    background: steelblue;
+    width: 858px;
+    overflow: auto;
+    margin: 0 auto 30px auto;
+}
+
+.img-right {
+    float: right;
+    height: 230px;
+    object-fit: fill;
+    display: inline;
+}
+
+.mortgage-container img {
+    float: left;
+    height: 230px;
+    object-fit: fill;
+    display: inline;
+}
+
+.steps-adjust {
+    color: white;
+    float: left;
+    width: 65%;
+    padding: 35px;
+}
+
+.steps-adjust h3 {
+    border-bottom: 3px solid;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.step-adjust h4 {
+    font-size: 50px;
+}
+
+.text-left {
+    text-align: left;
+    margin-top: 19px;
+}
+
+.text-right {
+    text-align: right;
+    margin-top: 19px
+}
